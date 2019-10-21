@@ -24,7 +24,7 @@ client.on('message', message => {
       message.channel.send(`**Status You  ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/M3roof");
+    client.user.setGame(argresult, "https://www.twitch.tv/Lion_AR1");
       message.channel.send(`**Status You ${argresult} **`)
 }
 });
